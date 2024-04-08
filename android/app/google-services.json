@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "650780817169",
+    "project_id": "trackmyroof-340518",
+    "storage_bucket": "trackmyroof-340518.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650780817169:android:0e0431da2ad3c9fc463eb0",
+        "android_client_info": {
+          "package_name": "com.example.my_flutter_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650780817169-ceockpvtise6cbs20q8j9ls348r55v3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYYG2URz3kOf9gAc6DuZwQKF7oW7opmaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650780817169-ceockpvtise6cbs20q8j9ls348r55v3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:650780817169:android:424912e59bd76e88463eb0",
+        "android_client_info": {
+          "package_name": "com.example.taskmanager"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "650780817169-ceockpvtise6cbs20q8j9ls348r55v3f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYYG2URz3kOf9gAc6DuZwQKF7oW7opmaQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "650780817169-ceockpvtise6cbs20q8j9ls348r55v3f.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
