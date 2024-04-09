@@ -1,7 +1,7 @@
 {
   "file_generated_by": "FlutterFire CLI",
   "purpose": "FirebaseAppID & ProjectID for this Firebase app in this directory",
-  "GOOGLE_APP_ID": "1:650780817169:ios:3f1c381c87eda46e463eb0",
-  "FIREBASE_PROJECT_ID": "trackmyroof-340518",
-  "GCM_SENDER_ID": "650780817169"
+  "GOOGLE_APP_ID": "1:530345023519:ios:14c99c7c3281dcb67c5d2a",
+  "FIREBASE_PROJECT_ID": "taskmanager-45269",
+  "GCM_SENDER_ID": "530345023519"
 }

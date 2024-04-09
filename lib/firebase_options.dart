@@ -44,37 +44,41 @@ class DefaultFirebaseOptions {
   }
 
   static const FirebaseOptions web = FirebaseOptions(
-    apiKey: 'AIzaSyDg9B4mkPkAvQiGTyoyF2xU_NDwIa_j6Ks',
-    appId: '1:650780817169:web:86edcb61c99a3e41463eb0',
-    messagingSenderId: '650780817169',
-    projectId: 'trackmyroof-340518',
-    authDomain: 'trackmyroof-340518.firebaseapp.com',
-    storageBucket: 'trackmyroof-340518.appspot.com',
+    apiKey: 'AIzaSyB86A_5o22t4JwN8aFp-3K1eX7TCoPq4Q0',
+    appId: '1:530345023519:web:3e3cdb670a283f187c5d2a',
+    messagingSenderId: '530345023519',
+    projectId: 'taskmanager-45269',
+    authDomain: 'taskmanager-45269.firebaseapp.com',
+    databaseURL: 'https://taskmanager-45269-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'taskmanager-45269.appspot.com',
   );
 
   static const FirebaseOptions android = FirebaseOptions(
-    apiKey: 'AIzaSyAYYG2URz3kOf9gAc6DuZwQKF7oW7opmaQ',
-    appId: '1:650780817169:android:424912e59bd76e88463eb0',
-    messagingSenderId: '650780817169',
-    projectId: 'trackmyroof-340518',
-    storageBucket: 'trackmyroof-340518.appspot.com',
+    apiKey: 'AIzaSyDCE_mjZuyA9pJXSOKZGzLR9k42zqUUYgI',
+    appId: '1:530345023519:android:62110e07ff5382ab7c5d2a',
+    messagingSenderId: '530345023519',
+    projectId: 'taskmanager-45269',
+    databaseURL: 'https://taskmanager-45269-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'taskmanager-45269.appspot.com',
   );
 
   static const FirebaseOptions ios = FirebaseOptions(
-    apiKey: 'AIzaSyAzdaLVAPllY7KCNZcYnZ5OpTsL0mZbFMc',
-    appId: '1:650780817169:ios:3f1c381c87eda46e463eb0',
-    messagingSenderId: '650780817169',
-    projectId: 'trackmyroof-340518',
-    storageBucket: 'trackmyroof-340518.appspot.com',
+    apiKey: 'AIzaSyAUoX3p9yNyx8e2tosLrsO9DPBQdS4x0Tw',
+    appId: '1:530345023519:ios:14c99c7c3281dcb67c5d2a',
+    messagingSenderId: '530345023519',
+    projectId: 'taskmanager-45269',
+    databaseURL: 'https://taskmanager-45269-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'taskmanager-45269.appspot.com',
     iosBundleId: 'com.example.taskmanager',
   );
 
   static const FirebaseOptions macos = FirebaseOptions(
-    apiKey: 'AIzaSyAzdaLVAPllY7KCNZcYnZ5OpTsL0mZbFMc',
-    appId: '1:650780817169:ios:74b703932cb925ce463eb0',
-    messagingSenderId: '650780817169',
-    projectId: 'trackmyroof-340518',
-    storageBucket: 'trackmyroof-340518.appspot.com',
+    apiKey: 'AIzaSyAUoX3p9yNyx8e2tosLrsO9DPBQdS4x0Tw',
+    appId: '1:530345023519:ios:7200640bb67c75757c5d2a',
+    messagingSenderId: '530345023519',
+    projectId: 'taskmanager-45269',
+    databaseURL: 'https://taskmanager-45269-default-rtdb.europe-west1.firebasedatabase.app',
+    storageBucket: 'taskmanager-45269.appspot.com',
     iosBundleId: 'com.example.taskmanager.RunnerTests',
   );
 }
