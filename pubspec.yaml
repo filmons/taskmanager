@@ -41,6 +41,7 @@ dependencies:
   cloud_firestore: ^4.9.2
   file_picker: ^6.0.0
   permission_handler: ^11.0.1
+  uuid: ^4.4.0
 
 
 dev_dependencies:
