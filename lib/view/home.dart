@@ -4,6 +4,7 @@ import 'package:taskmanager/constants/constants.dart';
 import 'package:taskmanager/view/add_task.dart';
 import 'package:taskmanager/widget/stream_task.dart';
 
+
 class Home_Screen extends StatefulWidget {
   const Home_Screen({super.key});
 
@@ -23,11 +24,13 @@ class _Home_ScreenState extends State<Home_Screen> {
         child: FloatingActionButton(
           onPressed: () {
             Navigator.of(context).push(MaterialPageRoute(
+
               builder: (context) => AddScreen(),
             ));
           },
           backgroundColor: customGreen,
           child: Icon(Icons.add, size: 15),
+
         ),
       ),
       body: SafeArea(
@@ -47,14 +50,16 @@ class _Home_ScreenState extends State<Home_Screen> {
           },
           child: Column(
             children: [
+
               StreamTask(false),
+
               Text(
                 'isDone',
                 style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey.shade500,
                     fontWeight: FontWeight.bold),
-              ),
+
               StreamTask(true),
             ],
           ),
