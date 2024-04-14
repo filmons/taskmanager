@@ -13,7 +13,12 @@
           "package_name": "com.example.taskmanager"
         }
       },
-      "oauth_client": [],
+      "oauth_client": [
+        {
+          "client_id": "530345023519-j8piu6vcgcqqr3imqnt3v67jcdcoknn9.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
       "api_key": [
         {
           "current_key": "AIzaSyDCE_mjZuyA9pJXSOKZGzLR9k42zqUUYgI"
@@ -21,7 +26,19 @@
       ],
       "services": {
         "appinvite_service": {
-          "other_platform_oauth_client": []
+          "other_platform_oauth_client": [
+            {
+              "client_id": "530345023519-j8piu6vcgcqqr3imqnt3v67jcdcoknn9.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "530345023519-etu9v16opvbv90i28nk2476q8m05df7o.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.taskmanager"
+              }
+            }
+          ]
         }
       }
     }

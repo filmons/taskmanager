@@ -69,6 +69,7 @@ class DefaultFirebaseOptions {
     projectId: 'taskmanager-45269',
     databaseURL: 'https://taskmanager-45269-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'taskmanager-45269.appspot.com',
+    iosClientId: '530345023519-etu9v16opvbv90i28nk2476q8m05df7o.apps.googleusercontent.com',
     iosBundleId: 'com.example.taskmanager',
   );
 
@@ -79,6 +80,7 @@ class DefaultFirebaseOptions {
     projectId: 'taskmanager-45269',
     databaseURL: 'https://taskmanager-45269-default-rtdb.europe-west1.firebasedatabase.app',
     storageBucket: 'taskmanager-45269.appspot.com',
+    iosClientId: '530345023519-u9mmbtt0bs4r7e9n16v9rk6elmo7ojdl.apps.googleusercontent.com',
     iosBundleId: 'com.example.taskmanager.RunnerTests',
   );
 }
