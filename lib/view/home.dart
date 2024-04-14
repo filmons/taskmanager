@@ -53,14 +53,13 @@ class _Home_ScreenState extends State<Home_Screen> {
 
               StreamTask(false),
 
-              Text(
+             Text(
                 'isDone',
                 style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey.shade500,
                     fontWeight: FontWeight.bold),
-
-              StreamTask(true),
+              ),
             ],
           ),
         ),
