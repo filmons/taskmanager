@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/rendering.dart';
-// import 'package:flutter_to_do_list/helper/colors.dart';
-import 'package:taskmanager/const/colors.dart';
-// import 'package:flutter_to_do_list/screen/add_note_screen.dart';
-// import 'package:flutter_to_do_list/widgets/stream_note.dart';
+import 'package:taskmanager/constants/constants.dart';
+import 'package:taskmanager/view/add_task.dart';
+import 'package:taskmanager/widget/stream_task.dart';
+
 
 class Home_Screen extends StatefulWidget {
   const Home_Screen({super.key});
@@ -24,11 +24,13 @@ class _Home_ScreenState extends State<Home_Screen> {
         child: FloatingActionButton(
           onPressed: () {
             Navigator.of(context).push(MaterialPageRoute(
-              builder: (context) => Add_creen(),
+
+              builder: (context) => AddScreen(),
             ));
           },
-          backgroundColor: custom_green,
-          child: Icon(Icons.add, size: 30),
+          backgroundColor: customGreen,
+          child: Icon(Icons.add, size: 15),
+
         ),
       ),
       body: SafeArea(
@@ -48,15 +50,17 @@ class _Home_ScreenState extends State<Home_Screen> {
           },
           child: Column(
             children: [
-              Stream_note(false),
+
+              StreamTask(false),
+
               Text(
                 'isDone',
                 style: TextStyle(
                     fontSize: 16,
                     color: Colors.grey.shade500,
                     fontWeight: FontWeight.bold),
-              ),
-              Stream_note(true),
+
+              StreamTask(true),
             ],
           ),
         ),
