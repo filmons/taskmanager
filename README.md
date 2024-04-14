@@ -3,14 +3,8 @@
 A new Flutter project.
 
 ## Getting Started
+For testing, simply follow the steps listed in the Repository overview on Docker Hub.
+[Docker Hub Repository: hermela12/flutter_docker](https://hub.docker.com/repository/docker/hermela12/flutter_docker/general)
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+![Repository overview on Docker](Repository.png "Repository overview on Docker")
